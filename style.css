@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("bg-main-tablet.png");
+}
+.container {
+    font-family: poppins;
+    margin-left: 6rem;
+}
+.logo {
+    margin: 1.5rem 0 5rem 0;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+.text {
+    margin-bottom: 2rem;
+}
+.para {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 9rem;
+}
+.section {
+     background-image:url("bg-pattern-2.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     top: 4rem;
+     background-color: black;
+     width: 63rem;
+     margin-top: 2rem;
+     border-radius:.7rem;
+     display: flex;
+     height: 32rem;
+} 
+.image {
+    float: right;
+    position: relative;
+    bottom: 9rem;
+}
+.phone{
+position: relative;
+margin-left: 7rem;
+bottom: 8rem;
+}
+.dollar {
+margin: 2rem 0 1.7rem ;
+}
+.card {
+background-color: rgb(211, 107, 69);
+padding: 3rem 0 2rem 3rem;
+color: white;
+position: relative;
+top: 4rem;
+margin-left: 11rem;
+width: 22rem;
+border-radius: .5rem;
+line-height: 1.4rem;
+}
+button{
+width: 15rem;
+padding: 1rem;
+color: white;
+border-radius: .5rem;
+border: none;
+margin: .5rem;
+} 
+.footer{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 5rem;
+margin-top: 6rem;
+}
